@@ -3,7 +3,7 @@ package com.example.kattabozortest.presentation.ui.products
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.kattabozortest.data.remote.response.ProductResponse
-import com.example.kattabozortest.domain.usecase.jokes.ProductUseCase
+import com.example.kattabozortest.domain.usecase.product.ProductUseCase
 import com.example.kattabozortest.utils.ResultWrapper
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow

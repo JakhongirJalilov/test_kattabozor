@@ -4,8 +4,8 @@ import android.content.Context
 import com.chuckerteam.chucker.api.ChuckerInterceptor
 import com.example.kattabozortest.data.remote.repository.ProductRepository
 import com.example.kattabozortest.data.remote.service.ProductService
-import com.example.kattabozortest.domain.usecase.jokes.ProductUseCase
-import com.example.kattabozortest.domain.usecase.jokes.ProductUseCaseImpl
+import com.example.kattabozortest.domain.usecase.product.ProductUseCase
+import com.example.kattabozortest.domain.usecase.product.ProductUseCaseImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
